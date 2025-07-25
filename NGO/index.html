@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Helping Hands NGO - Empowering Communities</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="container-fluid px-0">
+    <!-- Header -->
+    <div class="row header bg-primary text-center py-3">
+      <div class="col-12">
+        <h2 class="text-white"><i class="fas fa-hands-helping me-2"></i>Helping Hands NGO</h2>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">
+          <i class="fas fa-heart text-danger me-2"></i>Helping Hands
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fas fa-home me-1"></i>Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html"><i class="fas fa-info-circle me-1"></i>About</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fas fa-images me-1"></i>Gallery</a></li>
+       <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fas fa-sign-in-alt me-1"></i>Login
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="loginDropdown">
+    <li><a class="dropdown-item" href="login.html">User Login</a></li>
+    <li><a class="dropdown-item" href="#">Admin  Login</a></li>
+  </ul>
+</li>
+
+            <li class="nav-item"><a class="nav-link" href="signup.html"><i class="fas fa-user-plus me-1"></i>Signup</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fas fa-envelope me-1"></i>Contact</a></li>
+          </ul>
+          <form class="d-flex">
+            <div class="input-group">
+              <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+              <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Enhanced Carousel with Auto-rotation -->
+    <div id="mainCarousel" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.pinimg.com/1200x/bb/88/fc/bb88fc0dd701230a8644a4051c0657df.jpg" class="d-block w-100" alt="Empowering Lives" style="height: 600px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-4">
+            <h3 class="display-5">Empowering Lives</h3>
+            <p class="lead">We believe in change through action and compassion.</p>
+            <a href="signup.html" class="btn btn-primary btn-lg mt-3">Join Us Today</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/1200x/e4/da/da/e4dada85dfdbfec12910d4d79cadbd12.jpg" class="d-block w-100" alt="Education for All" style="height: 600px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-4">
+            <h3 class="display-5">Education for All</h3>
+            <p class="lead">Spreading knowledge to those who need it most.</p>
+            <a href="about.html" class="btn btn-success btn-lg mt-3">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/1200x/74/99/92/7499923d2252d0900c5b6e2e31067b37.jpg" class="d-block w-100" alt="Health & Hygiene" style="height: 600px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-4">
+            <h3 class="display-5">Health & Hygiene</h3>
+            <p class="lead">Medical camps and sanitation awareness programs.</p>
+            <a href="gallery.html" class="btn btn-warning btn-lg mt-3">See Our Work</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Introduction Section with Animation -->
+    <div class="container mb-5 py-4">
+      <div class="row align-items-center">
+        <div class="col-md-6 pe-5">
+          <h1 class="display-4 fw-bold mb-4">Welcome to <span class="text-primary">Helping Hands</span></h1>
+          <p class="lead">We are a non-profit organization dedicated to improving lives through education, health initiatives, and women empowerment programs.</p>
+          <div class="d-flex mt-4">
+            <a href="about.html" class="btn btn-primary btn-lg me-3"><i class="fas fa-book-open me-2"></i>Our Story</a>
+            <a href="contact.html" class="btn btn-outline-secondary btn-lg"><i class="fas fa-phone me-2"></i>Contact Us</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="ratio ratio-16x9">
+            <iframe class="rounded shadow" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="About Helping Hands" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Impact Counter Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Impact in Numbers</h2>
+        <div class="row text-center">
+          <div class="col-md-3 mb-4">
+            <div class="counter-box p-4 rounded shadow-sm">
+              <i class="fas fa-child text-primary mb-3" style="font-size: 2.5rem;"></i>
+              <h3 class="counter" data-target="500">0</h3>
+              <p class="mb-0">Children Educated</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="counter-box p-4 rounded shadow-sm">
+              <i class="fas fa-female text-success mb-3" style="font-size: 2.5rem;"></i>
+              <h3 class="counter" data-target="200">0</h3>
+              <p class="mb-0">Women Empowered</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="counter-box p-4 rounded shadow-sm">
+              <i class="fas fa-medkit text-danger mb-3" style="font-size: 2.5rem;"></i>
+              <h3 class="counter" data-target="150">0</h3>
+              <p class="mb-0">Health Camps</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="counter-box p-4 rounded shadow-sm">
+              <i class="fas fa-hands-helping text-warning mb-3" style="font-size: 2.5rem;"></i>
+              <h3 class="counter" data-target="1000">0</h3>
+              <p class="mb-0">Volunteers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards Section with Hover Effects -->
+    <div class="container my-5">
+      <h2 class="text-center mb-5">Our Focus Areas</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-img-top overflow-hidden">
+              <img src="https://i.pinimg.com/1200x/ff/21/28/ff212816c9b929d194ab7deb1d8a6f9c.jpg" class="img-fluid w-100" alt="Education" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-book-open text-primary me-2"></i>Education</h5>
+              <p class="card-text">Providing free education and school supplies to underprivileged children in rural areas.</p>
+              <a href="#" class="btn btn-outline-primary stretched-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-img-top overflow-hidden">
+              <img src="https://i.pinimg.com/1200x/f0/fb/64/f0fb649c77a0b9ef29f95a3aa7d209f3.jpg" class="img-fluid w-100" alt="Health" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-heartbeat text-danger me-2"></i>Health Camps</h5>
+              <p class="card-text">Organizing free medical checkups, vaccination drives, and health awareness programs.</p>
+              <a href="#" class="btn btn-outline-danger stretched-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-img-top overflow-hidden">
+              <img src="https://i.pinimg.com/736x/48/a1/ee/48a1ee5b17fa20f9502e3b7ae4ab99aa.jpg" class="img-fluid w-100" alt="Women Empowerment" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-female text-success me-2"></i>Women Empowerment</h5>
+              <p class="card-text">Vocational training and self-help groups to promote financial independence.</p>
+              <a href="#" class="btn btn-outline-success stretched-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-img-top overflow-hidden">
+              <img src="https://i.pinimg.com/1200x/d0/7f/1d/d07f1d48832d5b4ed60499c07296f94f.jpg" class="img-fluid w-100" alt="Environment" style="height: 200px; object-fit: cover;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-tree text-warning me-2"></i>Environment</h5>
+              <p class="card-text">Tree plantation drives and sustainable living awareness campaigns.</p>
+              <a href="#" class="btn btn-outline-warning stretched-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Upcoming Events Section -->
+    <section class="py-5 bg-primary text-white">
+      <div class="container">
+        <h2 class="text-center mb-5">Upcoming Events</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <div class="card-header bg-success text-white">
+                <h5 class="mb-0"><i class="fas fa-calendar-alt me-2"></i>July 30, 2025</h5>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Health Awareness Camp</h4>
+                <p class="card-text">Free health checkups and medicines distribution in rural villages near Delhi.</p>
+                <ul class="list-group list-group-flush mb-3">
+                  <li class="list-group-item"><i class="fas fa-clock me-2"></i>9:00 AM - 4:00 PM</li>
+                  <li class="list-group-item"><i class="fas fa-map-marker-alt me-2"></i>Rural Health Center, Delhi</li>
+                </ul>
+                <a href="#" class="btn btn-success w-100">Register as Volunteer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <div class="card-header bg-info text-white">
+                <h5 class="mb-0"><i class="fas fa-calendar-alt me-2"></i>August 5, 2025</h5>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Back to School Drive</h4>
+                <p class="card-text">Distribution of school supplies and uniforms to underprivileged children.</p>
+                <ul class="list-group list-group-flush mb-3">
+                  <li class="list-group-item"><i class="fas fa-clock me-2"></i>10:00 AM - 2:00 PM</li>
+                  <li class="list-group-item"><i class="fas fa-map-marker-alt me-2"></i>Community Center, Mumbai</li>
+                </ul>
+                <a href="#" class="btn btn-info text-white w-100">Donate Supplies</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-lg">
+              <div class="card-header bg-warning text-dark">
+                <h5 class="mb-0"><i class="fas fa-calendar-alt me-2"></i>August 15, 2025</h5>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Women's Skill Workshop</h4>
+                <p class="card-text">Training program for women in tailoring, handicrafts, and small business management.</p>
+                <ul class="list-group list-group-flush mb-3">
+                  <li class="list-group-item"><i class="fas fa-clock me-2"></i>11:00 AM - 3:00 PM</li>
+                  <li class="list-group-item"><i class="fas fa-map-marker-alt me-2"></i>Vocational Center, Bangalore</li>
+                </ul>
+                <a href="#" class="btn btn-warning w-100">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="#" class="btn btn-light btn-lg">View All Events <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founders Section -->
+    <div class="container my-5 py-4">
+      <h2 class="text-center mb-5">Meet Our Founders</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-5 mb-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                <img src="https://i.pinimg.com/736x/b4/9a/b4/b49ab4a083c4ea6de32a1209bb31b820.jpg" class="img-fluid rounded-circle founder-img" alt="Ravi Sharma" style="width: 150px; height: 150px; object-fit: cover;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Ravi Sharma</h3>
+                  <p class="text-muted mb-2">Founder & CEO</p>
+                  <p class="card-text">With over 15 years of social work experience, Ravi founded Helping Hands to create systemic change in rural communities.</p>
+                  <div class="social-icons mt-3">
+                    <a href="#" class="text-primary me-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="#" class="text-info me-2"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-danger"><i class="fab fa-instagram fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mb-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                <img src="https://i.pinimg.com/736x/ff/30/ed/ff30edbb164bcee5c419ecac1ec3a357.jpg" class="img-fluid rounded-circle founder-img" alt="Anjali Verma" style="width: 150px; height: 150px; object-fit: cover;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Anjali Verma</h3>
+                  <p class="text-muted mb-2">Co-Founder</p>
+                  <p class="card-text">Anjali brings her expertise in women's empowerment programs and community development initiatives.</p>
+                  <div class="social-icons mt-3">
+                    <a href="#" class="text-primary me-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="#" class="text-info me-2"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-danger"><i class="fab fa-instagram fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">What People Say About Us</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm testimonial-card">
+              <div class="card-body p-4">
+                <div class="mb-3 text-warning">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="card-text mb-4">"Helping Hands provided vocational training that helped me start my own tailoring business. I'm now financially independent!"</p>
+                <div class="d-flex align-items-center">
+                  <img src="https://i.pinimg.com/736x/5f/cb/0a/5fcb0a5578d81bba2917013c511cc247.jpg" class="rounded-circle me-3" width="60" height="60" alt="Priya Sharma">
+                  <div>
+                    <h6 class="mb-0">Priya Sharma</h6>
+                    <small class="text-muted">Beneficiary</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm testimonial-card">
+              <div class="card-body p-4">
+                <div class="mb-3 text-warning">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="card-text mb-4">"Volunteering with Helping Hands has been the most rewarding experience of my life. The team is truly making a difference."</p>
+                <div class="d-flex align-items-center">
+                  <img src="https://i.pinimg.com/736x/e9/c5/1a/e9c51a0a6819c3b0032b44c46fd199b0.jpg" class="rounded-circle me-3" width="60" height="60" alt="Rahul Mehta">
+                  <div>
+                    <h6 class="mb-0">Rahul Mehta</h6>
+                    <small class="text-muted">Volunteer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm testimonial-card">
+              <div class="card-body p-4">
+                <div class="mb-3 text-warning">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="card-text mb-4">"Our company's partnership with Helping Hands has been impactful. Their transparency and results are commendable."</p>
+                <div class="d-flex align-items-center">
+                  <img src="https://i.pinimg.com/736x/48/a1/ee/48a1ee5b17fa20f9502e3b7ae4ab99aa.jpg" class="rounded-circle me-3" width="60" height="60" alt="Anjali Kapoor">
+                  <div>
+                    <h6 class="mb-0">Anjali Kapoor</h6>
+                    <small class="text-muted">Corporate Partner</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-dark text-white text-center">
+      <div class="container">
+        <h2 class="display-5 mb-4">Ready to Make a Difference?</h2>
+        <p class="lead mb-5">Join us in our mission to create positive change in communities across India.</p>
+        <div class="d-flex justify-content-center flex-wrap">
+          <a href="signup.html" class="btn btn-primary btn-lg mx-3 mb-3"><i class="fas fa-user-plus me-2"></i>Become a Volunteer</a>
+          <a href="#" class="btn btn-success btn-lg mx-3 mb-3"><i class="fas fa-donate me-2"></i>Make a Donation</a>
+          <a href="contact.html" class="btn btn-light btn-lg mx-3 mb-3"><i class="fas fa-envelope me-2"></i>Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h5><i class="fas fa-hands-helping me-2"></i>Helping Hands</h5>
+            <p class="mt-3">Empowering communities through education, healthcare, and sustainable development initiatives since 2015.</p>
+            <div class="social-icons mt-4">
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+            </div>
+          </div>
+          <div class="col-md-2 mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+              <li class="mb-2"><a href="about.html" class="text-white text-decoration-none">About Us</a></li>
+              <li class="mb-2"><a href="gallery.html" class="text-white text-decoration-none">Gallery</a></li>
+              <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+              <li class="mb-2"><a href="#" class="text-white text-decoration-none">Donate</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-4">
+            <h5>Our Programs</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="text-white text-decoration-none">Education Initiative</a></li>
+              <li class="mb-2"><a href="#" class="text-white text-decoration-none">Women Empowerment</a></li>
+              <li class="mb-2"><a href="#" class="text-white text-decoration-none">Health Camps</a></li>
+              <li class="mb-2"><a href="#" class="text-white text-decoration-none">Environmental Projects</a></li>
+              <li class="mb-2"><a href="#" class="text-white text-decoration-none">Rural Development</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-4">
+            <h5>Contact Info</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 NGO Street, Mumbai, India</li>
+              <li class="mb-2"><i class="fas fa-phone me-2"></i> +91 98765 43210</li>
+              <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@helpinghands.org</li>
+              <li class="mb-2"><i class="fas fa-clock me-2"></i> Mon-Fri: 9AM - 6PM</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4 bg-light">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">&copy; 2025 Helping Hands NGO. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+            <a href="#" class="text-white text-decoration-none me-3">Terms of Service</a>
+            <a href="#" class="text-white text-decoration-none">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="btn btn-primary btn-lg back-to-top" title="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Back to top button
+    const backToTopButton = document.querySelector('.back-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+
+    // Counter animation
+    const counters = document.querySelectorAll('.counter');
+    const speed = 200;
+    
+    function animateCounters() {
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+        const increment = target / speed;
+        
+        if (count < target) {
+          counter.innerText = Math.ceil(count + increment);
+          setTimeout(animateCounters, 1);
+        } else {
+          counter.innerText = target;
+        }
+      });
+    }
+    
+    // Start animation when counters are in view
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounters();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {threshold: 0.5});
+    
+    counters.forEach(counter => {
+      observer.observe(counter);
+    });
+  </script>
+</body>
+</html>
